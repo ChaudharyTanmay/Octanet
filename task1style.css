@@ -1,0 +1,33 @@
+*{padding:0;margin:0;box-sizing:border-box;}
+header{
+    width:100%;
+    height:100vh;
+    background: url(./image3.jpg);
+    background-size:cover;
+    font-family: sans-serif;
+}
+nav{
+    width:100%;
+    height:100px;
+    color:rgba(249, 249, 249, 0.778);
+    display: flex;
+    align-items:center; 
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 5px;
+    padding-left:10px ;
+    padding-right: 750px;
+}
+.menu a{
+       text-decoration: none ;
+        color:rgba(249, 249, 249, 0.778);
+        padding:10px 30px 20px ;
+       
+}
+.menu a:hover{
+    background:rgba(249, 249, 249, 0.662);
+    
+}
+
+
