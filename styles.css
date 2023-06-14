@@ -1,0 +1,80 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: beige;
+}
+.container{
+    margin-top:20px ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-container{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.input-container input{
+    border: none;
+    outline: none;
+    padding:12px;
+    margin-block:12px;
+    border-radius:4px ;
+}
+.input-container input[type="text"]
+{
+width: 70%;
+}
+.input-container input[type="button"]
+{
+    cursor:pointer;
+    margin-left: 8px;
+    padding: 12px;
+}
+.input-container input[type="button"]:hover{
+    background-color: rgb(204, 204, 68);
+}
+ul{
+    width:70%;
+    max-width:450px;
+   /* display:flex;
+   padding-left: 40%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;*/
+}
+ul li{
+    list-style:none;
+    cursor: pointer;
+    margin-block-end: 12px;
+    border-radius: 8px;
+    border: 0.125px solid beige;
+    padding: 6px 12px;
+    background-color: white;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+ul li p{
+    flex-grow:1;
+    padding:2px;
+}
+.btn{
+    border:none;
+    outline:none;
+    font-size:16px;
+    background:none;
+    font-weight: 600;
+    cursor: pointer;
+    padding:8px;
+}
+.deleteBtn{
+    color:rgb(196, 50, 50);
+}
+.editBtn{
+    color:green;}
